@@ -4,6 +4,8 @@ import threading
 import string
 import time
 
+#Deactivated acounts may get flagged as available. To my knowledge, theres no way to fix this.
+
 threadnum = 10 #Increasing this value lowers performance and increases speed
 letters = 5 #The amount of letters in the username
 gens = 1000 #The amount of randomly generated usernames to check against
